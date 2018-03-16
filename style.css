@@ -1,0 +1,118 @@
+*{
+
+margin:0;
+
+padding:0;
+
+}
+
+.logo{
+	margin-left: 50px;
+	/* ne sert qu'a caler le logo proprement */
+}
+
+header{
+
+	position: relative;
+	height: 80px; 
+	width: 100%;
+	background-color: #1F2D3D;
+	/* on fixe la position de la barre de navigation sur la page et on lui donne une couleur*/
+	padding:2px; /* marges */
+	text-align: bottom;
+	/* box-shadow permet d'appliquer des ombres */
+	box-shadow: 0px 2px 20px 0px #656565;
+	box-shadow: 0px 2px 20px 0px #656565;
+	box-shadow: 0px 2px 20px 0px #656565;
+	box-shadow: 0px 2px 20px 0px #656565;
+}
+
+.nav_content{
+	/* on deplace la barre de navigation vers la droite pour laisser place a un eventuel logo */
+	margin-left: 170px;
+	position: absolute; bottom: 0; 
+}
+
+.navigation{ 
+	/* choix de la couleur et de la police utilise*/
+	color: #FFFFFF;
+	font-family: 'bebas';
+	font-size: 20px;
+}
+.navigation:hover{color:#E37B40;} /* lorsque l'on passe sa souris sur un bouton du menu il se surligne en orange */
+
+.imageaccueil{ /* on place une image au milieu de la page d'accueil */
+	background-image: url(accueil.png);
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 968px;
+	width: 1200px;
+}
+
+.photos{
+	margin:10px;
+	width:20%;
+	height: 20%;
+	border: solid;
+	border-width: 2px;
+	border-color:#564F51; 
+	margin-left: auto;
+	margin-right:auto;
+}
+.photosdroite{
+	margin:10px;
+	width:20%;
+	height: 20%;
+	border: solid;
+	border-width: 2px;
+	border-color:#564F51; 
+	margin-left: 10px;
+	margin-bottom: :10px;
+	float:right;
+}
+.resultat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.pdf{
+	width:90%;
+	height:600px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+article{ /* choix de styles pour les paragraphes */
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #B2B2B2;
+	border-radius: 5px; /* ca permet d'avoir des coins arrondis  */
+	padding: 5px; /* padding et margin permettent de placer les paragraphes correctement sur la page */
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{ /* le footer c'etait juste pour le styl il a pas grand interet si ce n'est mettre la date et le nom du createur */
+	font-size: 10px;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	color:#B2B2B2;
+	text-align: center;
+	background-color: #1E242B;
+	padding: 2px;
+	font-family: 'bebas';
+	height:14px;
+}
+
+body{ /* la on donne une couleur d'arriere plan a la page */
+	background-color: #343F4B;
+	margin: 0px 0px 0px 0px;
+}
+
+@font-face{ /* on importe la police bebas */
+	font-family: 'bebas';
+	src: url('BebasNeue-Regular.ttf');
+}
